@@ -1,0 +1,107 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #FFD7D7;
+    margin-bottom: 1.6rem;
+    width: 100%;
+}
+
+.border_white {
+    border-bottom: 1px solid #FFD7D7;
+}
+
+.invalid {
+    border-bottom: 1px solid #FD2D01;
+}
+
+.label {
+    font-size: 1.3rem;
+    color: #4E5166;
+}
+
+.input_error {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    color: #FD2D01;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.input_height {
+    height: 4rem;
+}
+
+.textarea {
+    margin-top: 1.1rem;
+    resize: none;
+}
+
+.icon {
+    width: 1.6rem;
+    margin: auto 0 auto 1rem;
+    color: black;
+}
+
+.box {
+    font-family: "Lato";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.box:focus {
+    border: 0;
+    filter: none;
+}
+
+.box::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #4E5166;
+    opacity: 1; /* Firefox */
+}
+
+.box:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #4E5166;
+}
+
+.box::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #4E5166;
+}
+
+.white_box {
+    font-family: "Lato";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.white_box::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eeeeee;
+    opacity: 1; /* Firefox */
+}
+
+.white_box:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #eeeeee;
+}
+
+.white_box::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #eeeeee;
+}

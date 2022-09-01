@@ -1,0 +1,7 @@
+.nav_btn_list {
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    justify-content: space-evenly;
+    position: relative;
+}

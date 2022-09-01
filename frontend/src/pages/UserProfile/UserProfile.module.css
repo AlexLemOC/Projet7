@@ -1,0 +1,92 @@
+.class_mod {
+    flex-direction: unset;
+    padding: 0;
+    position: relative;
+}
+
+.background_img {
+    background: rgba(0, 0, 0) url(../../images/background.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    resize: both;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.profile_photo {
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    margin: 4rem auto 0 auto;
+    border-radius: 3.5rem;
+}
+
+.profile_photo:hover {
+    box-shadow: 0px 0px 30px rgba(160, 9, 9, 0.6);
+}
+
+.hero_block {
+    display: flex;
+    flex-direction: row;
+    margin: 6vh auto 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.Linkedin_icon {
+    width: 2rem;
+    margin: 0.4rem 0 auto 1.6rem;
+}
+
+.department {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #828282;
+    margin: 2vh 0 0 0;
+}
+
+.role {
+    text-align: center;
+    font-weight: 500;
+    line-height: 160%;
+    margin: auto;
+}
+
+.email {
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 160%;
+    margin: auto;
+    color: rgb(0, 0, 238);
+    text-decoration: none;
+}
+
+.btnStyle {
+    color: #c30000;
+    margin: auto;
+    cursor: pointer;
+}
+
+.iconStyle {
+    height: 2.4rem;
+    width: auto;
+    margin: 0 1rem 0 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0 6rem 0;
+}

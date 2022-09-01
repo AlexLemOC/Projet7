@@ -1,0 +1,68 @@
+.desktop_wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    background-color: white;
+    border-radius: 0;
+}
+
+.home_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    background-color: white;
+    border-radius: 0 0 5rem 5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    overflow-y: auto;
+    border-radius: 0 0 5rem 5rem;
+    padding: 0 2rem;
+}
+
+.layout_wrap {
+    height: 88vh;
+}
+
+.disclaimer {
+    color: white;
+    font-size: 1.3rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+/*---------------------------------*/
+/*         _scrollbar.scss        */
+/*-------------------------------*/
+
+.container::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #FD2D01;
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        width: 60%;
+        margin: 0 3.2rem;
+        border-radius: 0;
+        height: 93vh;
+    }
+
+    .container {
+        height: 100vh;
+        border-radius: 0;
+    }
+}

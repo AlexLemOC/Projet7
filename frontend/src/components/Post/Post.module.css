@@ -1,0 +1,38 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 400px; */
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 16px;
+}
+
+.title {
+    text-align: left;
+    margin: 6px 0 16px 0;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+.reactions {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0;
+}
+
+.push_right {
+    margin: 0 0 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .photo {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 2.3rem;
+    }
+}
